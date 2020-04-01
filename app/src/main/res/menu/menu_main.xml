@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lab2.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_new"
+        android:orderInCategory="100"
+        android:title="@string/action_newActivity"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_prefference"
+        android:orderInCategory="101"
+        android:title="@string/action_preferenceActivity"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sensor"
+        android:orderInCategory="102"
+        android:title="Sensors"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_gps"
+        android:orderInCategory="103"
+        android:title="@string/action_gps"
+        app:showAsAction="never"
+        />
+</menu>
