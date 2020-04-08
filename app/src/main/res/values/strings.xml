@@ -5,5 +5,5 @@
     <string name="action_preferenceActivity">Preferences</string>
     <string name="action_gps">GPS</string>
     <string name="title_activity_sensor">SensorActivity</string>
-
+    <string name="action_camera">PhotoActivity</string>
 </resources>

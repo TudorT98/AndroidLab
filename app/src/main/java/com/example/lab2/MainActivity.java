@@ -170,6 +170,12 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, GPS.class);
             startActivity(intent);
         }
+        if (id == R.id.action_camera)
+        {
+            Intent intent = new Intent(MainActivity.this, Photo.class);
+            startActivity(intent);
+        }
+
 
         return super.onOptionsItemSelected(item);
     }

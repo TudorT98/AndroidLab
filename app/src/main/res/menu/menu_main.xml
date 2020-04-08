@@ -29,4 +29,10 @@
         android:title="@string/action_gps"
         app:showAsAction="never"
         />
+    <item
+        android:id="@+id/action_camera"
+        android:orderInCategory="103"
+        android:title="@string/action_camera"
+        app:showAsAction="never"
+        />
 </menu>
